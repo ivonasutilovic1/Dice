@@ -1,8 +1,8 @@
-Dice james;
+Dice dylan;
   void setup(){
     noLoop();
     size(500, 500);
-    james=new Dice(0, 0);
+    dylan=new Dice(0, 0);
    
   }
  
@@ -13,9 +13,9 @@ Dice james;
    
   for(int v=0; v<500; v+=100){
     for(int u=0; u<500; u+=100){
-    Dice jeff = new Dice(u, v);
-    jeff.roll();
-    jeff.show();
+    Dice diego = new Dice(u, v);
+    diego.roll();
+    diego.show();
    
   }
   }
